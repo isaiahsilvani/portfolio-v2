@@ -24,7 +24,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <a href="https://github.com/isaiahsilvani/ideahubio" target="_blank"><Button colored>GitHub</Button></a>
-              <a href="https://ideahubio.herokuapp.com/" target="_blank"><Button colored>Live Demo</Button></a>
+              <a href="https://www.ideahubio.com/" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -42,7 +42,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
             <a href="https://github.com/isaiahsilvani/hot-escape" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://hot-escapes.herokuapp.com/" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://www.hotescape.co/" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -60,7 +60,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
             <a href="https://github.com/isaiahsilvani/tech-job-tracker" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://tech-hunters.herokuapp.com/" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://www.techhunters.info" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -78,7 +78,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
             <a href="https://github.com/isaiahsilvani/connect4-browser-game" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://connect4-browser-game.surge.sh/" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://www.connect4-game.com/" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -101,7 +101,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <a href="https://github.com/isaiahsilvani/ideahubio" target="_blank"><Button colored>GitHub</Button></a>
-              <a href="https://ideahubio.herokuapp.com/" target="_blank"><Button colored>Live Demo</Button></a>
+              <a href="https://www.ideahubio.com/" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -122,7 +122,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
             <a href="https://github.com/isaiahsilvani/hot-escape" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://hot-escapes.herokuapp.com/" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://www.hotescape.co/" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -143,7 +143,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
             <a href="https://github.com/isaiahsilvani/tech-job-tracker" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://tech-hunters.herokuapp.com/" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://www.techhunters.info" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -160,7 +160,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
             <a href="https://github.com/isaiahsilvani/connect4-browser-game" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://connect4-browser-game.surge.sh/" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://www.connect4-game.com/" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
