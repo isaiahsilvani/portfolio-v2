@@ -8,9 +8,8 @@ import Skills from './skills';
 class Resume extends Component {
   render() {
     return(
-      <div>
-        <Grid>
-          <Cell col={4}>
+      <div className="resume-grid">
+          <div className='resume-left-col'>
             <div style={{textAlign: 'center'}}>
               <img
                 src="https://i.imgur.com/Vnf5IES.png"
@@ -33,8 +32,9 @@ class Resume extends Component {
             <h5>Web</h5>
             <p>www.isaiahsilvani.com</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-          </Cell>
-          <Cell className="resume-right-col" col={8}>
+          </div>
+
+          <div className="resume-right-col" col={8}>
             <h2>Education</h2>
 
 
@@ -110,8 +110,7 @@ class Resume extends Component {
                   skill="Django"
                   progress={89}
                 />
-          </Cell>
-        </Grid>
+          </div>
       </div>
     )
   }

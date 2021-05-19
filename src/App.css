@@ -70,6 +70,17 @@
   padding-right: 1rem;
 }
 
+.resume-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.resume-left-col {
+  padding: 4rem;
+}
+.resume-right-col {
+  margin: 2rem;
+}
 
 /* contact page css */
 
@@ -207,6 +218,19 @@
 
   .aboutpage img {
     height: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  .resume-left-col {
+    grid-column: 1 / span 2;
+    width: 70%;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .resume-right-col {
+    grid-column: 1 / span2;
+    margin-top: 0;
   }
 }
 
