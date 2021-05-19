@@ -23,8 +23,8 @@ class Projects extends Component {
               <p className='card-tech' style={{marginBottom: '0'}}>Python, Django, Postgresql, Bootstrap</p>
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+              <a href="https://github.com/isaiahsilvani/ideahubio" target="_blank"><Button colored>GitHub</Button></a>
+              <a href="https://ideahubio.herokuapp.com/" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -41,8 +41,8 @@ class Projects extends Component {
               <p className='card-tech' style={{marginBottom: '0'}}>NodeJS, React, Express, MongoDB, Socket.IO</p>
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+            <a href="https://github.com/isaiahsilvani/hot-escape" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://hot-escapes.herokuapp.com/" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -59,8 +59,8 @@ class Projects extends Component {
               <p className='card-tech' style={{marginBottom: '0'}}>NodeJS, Express, MongoDB, Bootstrap</p>
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+            <a href="https://github.com/isaiahsilvani/tech-job-tracker" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://tech-hunters.herokuapp.com/" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -77,8 +77,8 @@ class Projects extends Component {
               <p className='card-tech' style={{marginBottom: '0'}}>Javascript, HTML5, CSS3</p>
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+            <a href="https://github.com/isaiahsilvani/connect4-browser-game" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://connect4-browser-game.surge.sh/" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -91,8 +91,8 @@ class Projects extends Component {
     } else if(this.state.activeTab === 1) {
       return (
         <div>
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/13Zsk89.png) center / cover'}} ></CardTitle>
             <CardText>
               <p className='card-title'>IdeaHub.IO</p>
               A social application for innovators to create and share their own groundbreaking startup ideas with other users. Features conditionally rendered controls for different levels of user authentication and real time chat with Django Channels.
@@ -100,8 +100,8 @@ class Projects extends Component {
               <p className='card-tech' style={{marginBottom: '0'}}>Python, Django, Postgresql, Bootstrap</p>
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+              <a href="https://github.com/isaiahsilvani/ideahubio" target="_blank"><Button colored>GitHub</Button></a>
+              <a href="https://ideahubio.herokuapp.com/" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -113,16 +113,16 @@ class Projects extends Component {
       return (
         <div>
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/lfbUyqU.png) center / cover'}} ></CardTitle>
             <CardText>
               <p className='card-title'>Hot Escape (Group Project)</p>
-              A travel and itinerary application which utilizes a 3rd party API to get flight data based on user query. Users can plan out their trips by inputting hotel, flight and rental car information. Also features real time chatroom functionality using Socket.IO.
+              A travel and itinerary application which utilizes a 3rd party API to get flight data based on user query. Users can plan out their trips by inputting hotel, flight and rental car information. I was responsible for API integration and building the chatroom with Socket.IO
               <br/><br/>
               <p className='card-tech' style={{marginBottom: '0'}}>NodeJS, React, Express, MongoDB, Socket.IO</p>
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+            <a href="https://github.com/isaiahsilvani/hot-escape" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://hot-escapes.herokuapp.com/" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -134,7 +134,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/Dmcdxhp.png) center / cover'}} ></CardTitle>
             <CardText>
               <p className='card-title'>Tech Hunters</p>
               A job hunting application which consumes a 3rd party API to get job list data based on user query fields. User can track the application process of each individual job a user finds. Also features a message board for users to share their job hunting experience with others
@@ -142,8 +142,8 @@ class Projects extends Component {
               <p className='card-tech' style={{marginBottom: '0'}}>NodeJS, Express, MongoDB, Bootstrap</p>
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+            <a href="https://github.com/isaiahsilvani/tech-job-tracker" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://tech-hunters.herokuapp.com/" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -151,16 +151,16 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/HlMITTD.png) center / cover'}} ></CardTitle>
             <CardText>
-              <p className='card-title'>Hot Escape (Group Project)</p>
-              A travel and itinerary application which utilizes a 3rd party API to get flight data based on user query. Users can plan out their trips by inputting hotel, flight and rental car information. Also features real time chatroom functionality using Socket.IO.
+              <p className='card-title'>Connect Four Browser Game</p>
+              A recreation of the popular board game Connect Four using JavaScript, HTML and CSS. Features toggle sound button, custom player names, randomizing who goes first, mobile responsiveness, and confetti + sound effects on win or tie.
               <br/><br/>
-              <p className='card-tech' style={{marginBottom: '0'}}>NodeJS, React, Express, MongoDB, Socket.IO</p>
+              <p className='card-tech' style={{marginBottom: '0'}}>Javascript, HTML5, CSS3</p>
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+            <a href="https://github.com/isaiahsilvani/connect4-browser-game" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://connect4-browser-game.surge.sh/" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
