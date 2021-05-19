@@ -122,3 +122,33 @@
   font-size: 5em;
   padding: 8px;
 }
+
+.aboutpage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.col1, .col2 {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.col2 img {
+  max-height: 30em;
+  max-width: 40em;
+}
+
+.col1 {
+  display: block;
+  padding-left: 5em;
+}
+
+.col1 p {
+  line-height: 3em;
+}
