@@ -171,6 +171,25 @@
   line-height: 3em;
 }
 
+@media (max-width: 520px) {
+  .col2 {
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .col1 h2 {
+    margin-top: 3rem;
+  }
+
+  .col2 img {
+    padding-right: 10rem;
+    width: 70%;
+    height: 80%;
+  }
+}
+
 @media (max-width: 600px) {
   .landing-grid {
     padding-top: 10px;
