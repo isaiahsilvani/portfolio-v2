@@ -43,7 +43,7 @@
 .contact-grid {
   text-align: center;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   height: 550px;
   background: white;
   color: black;
@@ -67,7 +67,7 @@
 
 .contact-list i {
   font-size: 66px;
-  padding-right: 5rem;
+  padding-right: 1rem;
 }
 
 
@@ -142,6 +142,10 @@
   text-align: left;
 }
 
+.col2 {
+  min-width: 550px;
+}
+
 .col2 img {
   max-height: 30em;
   max-width: 40em;
@@ -203,5 +207,18 @@
 
   .aboutpage img {
     height: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact-list {
+    display: flex;
+    flex-direction: column
+  }
+}
+
+@media (max-width: 850px) {
+  .contact-text {
+    font-size: 0.8em;
   }
 }
