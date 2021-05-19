@@ -158,9 +158,24 @@
   }
   .landing-grid h1 {
     font-size: 3em;
+    margin-bottom: 0;
     padding-top: 0.5em;
   }
   .landing-grid h3 {
     font-size: 1.8em;
+    margin-bottom: 0;
+  }
+  .banner-text {
+    width: 92%;
+  }
+  .banner-text p {
+    margin-bottom: 0;
+  }
+  .social-links {
+    margin-top: 0;
+  }
+  .landing-grid img {
+    width: 14rem;
+    height: 14rem;
   }
 }

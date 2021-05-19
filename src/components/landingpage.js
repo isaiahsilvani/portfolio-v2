@@ -19,7 +19,7 @@ class Landing extends Component {
               <h3>Full Stack Web Developer</h3>
             <hr/>
 
-          <p>Bootstrap | JavaScript | React | NodeJS | Express | MongoDB | Django | Postgresql </p>
+          <p>Bootstrap | JavaScript | React | NodeJS | Express | MongoDB | Python | Django | Postgresql </p>
 
         <div className="social-links">
 
