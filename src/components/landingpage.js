@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import { Link } from 'react-router-dom';
 
 
 class Landing extends Component {
@@ -20,7 +21,7 @@ class Landing extends Component {
             <hr/>
 
           <p>Bootstrap | JavaScript | React | NodeJS | Express | MongoDB | Python | Django | Postgresql </p>
-
+          <Link to="/projects"><button className="button-three">View Projects</button></Link>
         <div className="social-links">
 
           {/* LinkedIn */}

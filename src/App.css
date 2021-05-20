@@ -171,6 +171,58 @@
   line-height: 3em;
 }
 
+.nav-text:hover {
+  font-style: italic;
+}
+
+/* Custom Button Code */
+.button-three {
+  position: relative;
+  border-radius: 30px;
+  bottom: 0.8em;
+  letter-spacing: 0.2em;
+  font-size: 1.3em;
+  background: #006075;
+  font-weight: 800;
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.button-three:hover{
+ background:#fff;
+ box-shadow:0px 2px 10px 5px #97B1BF;
+ color:#000;
+}
+
+.button-three:after {
+  content: "";
+  background: #f1c40f;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button-three:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+
 @media (max-width: 520px) {
   .col2 {
     width: 50vh;
@@ -189,6 +241,8 @@
     height: 80%;
   }
 }
+
+
 
 @media (max-width: 600px) {
   .landing-grid {
