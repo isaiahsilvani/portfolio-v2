@@ -375,6 +375,12 @@
   }
 }
 
+@media (max-width: 849px) {
+  .button-three {
+    width: 46.8%;
+  }
+}
+
 @media (max-width: 850px) {
   .contact-text {
     font-size: 0.8em;
