@@ -14,7 +14,7 @@ class Contact extends Component {
               alt="avatar"
               style={{height: '250px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>From serving cars to serving web pages, I have always been passionate about helping others and learning new things. As a Full Stack Web Developer, these passions have driven me to build bigger and better things every day. As a result of my previous experience in customer service and sales, I understand the importance of showing courteousy and respect to everyone, and strive to be an ideal canidate for any development team.</p>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>From serving cars to serving web pages, I have always been passionate about helping others and learning new things. As a Full Stack Web Developer, these passions have driven me to build bigger and better things every day. As a result of my previous experience in customer service and sales, I understand the importance of showing courtesy and respect to everyone, and strive to be an ideal canidate for any development team.</p>
 
           </Cell>
           <Cell col={6}>
@@ -33,17 +33,16 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
-                    <span className='contact-text'>isilvani@outlook.com</span>
+                    <span className='contact-text'>isilvani@hotmail.com</span>
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-linkedin" aria-hidden="true"/>
-                    <span className='contact-text'>@ Isaiah Silvani</span>
+                    <span className='contact-text'>@ Isaiah-Silvani</span>
                   </ListItemContent>
                 </ListItem>
-
 
               </List>
             </div>

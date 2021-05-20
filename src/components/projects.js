@@ -72,7 +72,7 @@ class Projects extends Component {
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/HlMITTD.png) center / cover'}} ></CardTitle>
             <CardText>
               <p className='card-title'>Connect Four Browser Game</p>
-              A recreation of the popular board game Connect Four using JavaScript, HTML and CSS. Features toggle sound button, custom player names, randomizing who goes first, mobile responsiveness, and confetti + sound effects on win or tie.
+              A recreation of the popular board game Connect Four using JavaScript, HTML and CSS. Features toggle sound button, custom player names, randomizing who goes first, mobile responsiveness, and win or tie messages.
               <br/><br/>
               <p className='card-tech' style={{marginBottom: '0'}}>Javascript, HTML5, CSS3</p>
             </CardText>

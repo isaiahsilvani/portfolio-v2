@@ -21,14 +21,14 @@ class Resume extends Component {
             <h2 style={{paddingTop: '0.4em'}}>Isaiah Silvani</h2>
             <h4 style={{color: 'grey'}}>Full Stack Web Developer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>From serving cars to serving web pages, I have always been passionate about helping others and learning new things. As a Full Stack Web Developer, these passions have driven me to build bigger and better things every day. As a result of my previous experience in customer service and sales, I understand the importance of showing courteousy and respect to everyone, and strive to be an ideal canidate for any development team.</p>
+            <p>From serving cars to serving web pages, I have always been passionate about helping others and learning new things. As a Full Stack Web Developer, these passions have driven me to build bigger and better things every day. As a result of my previous experience in customer service and sales, I understand the importance of showing courtesy and respect to everyone, and strive to be an ideal canidate for any development team.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Location</h5>
             <p>Philadelphia, PA</p>
             <h5>Phone</h5>
             <p>(609) 464-6560</p>
             <h5>Email</h5>
-            <p>isaiahsilvani@outlook.com</p>
+            <p>isilvani@hotmail.com</p>
             <h5>Web</h5>
             <p>www.isaiahsilvani.com</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
@@ -39,10 +39,16 @@ class Resume extends Component {
 
 
             <Education
+              startYear={'Feb 2021'}
+              endYear={'May 2021'}
+              schoolName="General Assembly"
+              schoolDescription="Completed 500 hours of Software Development training using latest technologies and best practices"
+               />
+            <Education
               startYear={'Sept 2016'}
               endYear={'Jun 2017'}
               schoolName="Rowan College of Burlington Country"
-              schoolDescription="Completed courses towards Associates in Computer Science"
+              schoolDescription="Completed courses in Computer Science"
                />
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
@@ -52,7 +58,7 @@ class Resume extends Component {
               startYear={'Feb 2021'}
               endYear={'May 2021'}
               jobName="General Assembly"
-              jobDescription="Complete 500 hours of Software Development training using latest technologies and best practices. Build 3 real world full stack projects, and 1 front end project. Collaborate in a team environment."
+              jobDescription="Design, develop and deploy 3 real world full stack applications, and 1 front end application. Collaborate in a team environment using Slack and Zoom."
               />
 
               <Experience
