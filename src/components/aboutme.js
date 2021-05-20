@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import people from '../images/people.png'
 
 class About extends Component {
   render() {
@@ -12,7 +12,7 @@ class About extends Component {
           </p>
         </div>
         <div className='col2'>
-          <img src="https://i.imgur.com/o1tytDJ.png" alt="Web Developer"/>
+          <img src={people} alt="Web Developer"/>
         </div>
       </div>
     )

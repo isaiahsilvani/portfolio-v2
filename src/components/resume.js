@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Education from './education';
 import Experience from './experience';
-import Skills from './skills';
 import html5 from '../components/../images/html5.png'
 import bootstrap from '../components/../images/bootstrap.png'
 import css3 from '../components/../images/css3.png'
@@ -14,6 +13,7 @@ import postgresql from '../components/../images/postgresql.png'
 import python from '../components/../images/python.png'
 import react from '../components/../images/react.png'
 import nodejs from '../components/../images/nodejs.png'
+import avatar from '../images/avatar.png'
 
 
 class Resume extends Component {
@@ -23,7 +23,7 @@ class Resume extends Component {
           <div className='resume-left-col'>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://i.imgur.com/Vnf5IES.png"
+                src={avatar}
                 alt="avatar"
                 style={{height: '200px'}}
                  />
