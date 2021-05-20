@@ -12,7 +12,7 @@ class About extends Component {
           </p>
         </div>
         <div className='col2'>
-          <img src="https://i.imgur.com/o1tytDJ.png" alt="Web Dev Photo"/>
+          <img src="https://i.imgur.com/o1tytDJ.png" alt="Web Developer"/>
         </div>
       </div>
     )

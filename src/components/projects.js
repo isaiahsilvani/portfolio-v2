@@ -23,8 +23,8 @@ class Projects extends Component {
               <p className='card-tech' style={{marginBottom: '0'}}>Python, Django, Postgresql, Bootstrap</p>
             </CardText>
             <CardActions border>
-              <a href="https://github.com/isaiahsilvani/ideahubio" target="_blank"><Button colored>GitHub</Button></a>
-              <a href="https://www.ideahubio.com/" target="_blank"><Button colored>Live Demo</Button></a>
+              <a href="https://github.com/isaiahsilvani/ideahubio" target="_blank" rel="noopener noreferrer"><Button colored>GitHub</Button></a>
+              <a href="https://www.ideahubio.com/" target="_blank" rel="noopener noreferrer"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -41,8 +41,8 @@ class Projects extends Component {
               <p className='card-tech' style={{marginBottom: '0'}}>NodeJS, React, Express, MongoDB, Socket.IO</p>
             </CardText>
             <CardActions border>
-            <a href="https://github.com/isaiahsilvani/hot-escape" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://www.hotescape.co/" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/isaiahsilvani/hot-escape" target="_blank" rel="noopener noreferrer"><Button colored>GitHub</Button></a>
+            <a href="https://www.hotescape.co/" target="_blank" rel="noopener noreferrer"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -59,8 +59,8 @@ class Projects extends Component {
               <p className='card-tech' style={{marginBottom: '0'}}>NodeJS, Express, MongoDB, Bootstrap</p>
             </CardText>
             <CardActions border>
-            <a href="https://github.com/isaiahsilvani/tech-job-tracker" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://www.techhunters.info" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/isaiahsilvani/tech-job-tracker" target="_blank" rel="noopener noreferrer"><Button colored>GitHub</Button></a>
+            <a href="https://www.techhunters.info" target="_blank" rel="noopener noreferrer"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -77,8 +77,8 @@ class Projects extends Component {
               <p className='card-tech' style={{marginBottom: '0'}}>Javascript, HTML5, CSS3</p>
             </CardText>
             <CardActions border>
-            <a href="https://github.com/isaiahsilvani/connect4-browser-game" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://www.connect4-game.com/" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/isaiahsilvani/connect4-browser-game" target="_blank" rel="noopener noreferrer"><Button colored>GitHub</Button></a>
+            <a href="https://www.connect4-game.com/" target="_blank" rel="noopener noreferrer"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -100,8 +100,8 @@ class Projects extends Component {
               <p className='card-tech' style={{marginBottom: '0'}}>Python, Django, Postgresql, Bootstrap</p>
             </CardText>
             <CardActions border>
-              <a href="https://github.com/isaiahsilvani/ideahubio" target="_blank"><Button colored>GitHub</Button></a>
-              <a href="https://www.ideahubio.com/" target="_blank"><Button colored>Live Demo</Button></a>
+              <a href="https://github.com/isaiahsilvani/ideahubio" target="_blank" rel="noopener noreferrer"><Button colored>GitHub</Button></a>
+              <a href="https://www.ideahubio.com/" target="_blank" rel="noopener noreferrer"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -121,8 +121,8 @@ class Projects extends Component {
               <p className='card-tech' style={{marginBottom: '0'}}>NodeJS, React, Express, MongoDB, Socket.IO</p>
             </CardText>
             <CardActions border>
-            <a href="https://github.com/isaiahsilvani/hot-escape" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://www.hotescape.co/" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/isaiahsilvani/hot-escape" target="_blank" rel="noopener noreferrer"><Button colored>GitHub</Button></a>
+            <a href="https://www.hotescape.co/" target="_blank" rel="noopener noreferrer"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -142,8 +142,8 @@ class Projects extends Component {
               <p className='card-tech' style={{marginBottom: '0'}}>NodeJS, Express, MongoDB, Bootstrap</p>
             </CardText>
             <CardActions border>
-            <a href="https://github.com/isaiahsilvani/tech-job-tracker" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://www.techhunters.info" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/isaiahsilvani/tech-job-tracker" target="_blank" rel="noopener noreferrer"><Button colored>GitHub</Button></a>
+            <a href="https://www.techhunters.info" target="_blank" rel="noopener noreferrer"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -159,8 +159,8 @@ class Projects extends Component {
               <p className='card-tech' style={{marginBottom: '0'}}>Javascript, HTML5, CSS3</p>
             </CardText>
             <CardActions border>
-            <a href="https://github.com/isaiahsilvani/connect4-browser-game" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://www.connect4-game.com/" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/isaiahsilvani/connect4-browser-game" target="_blank" rel="noopener noreferrer"><Button colored>GitHub</Button></a>
+            <a href="https://www.connect4-game.com/" target="_blank" rel="noopener noreferrer"><Button colored>Live Demo</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
