@@ -136,6 +136,13 @@
   padding: 8px;
 }
 
+.fa-linkedin-square:hover {
+  color: #00a0dc;
+}
+.fa-github-square:hover {
+  color: #6cc644;
+}
+
 .aboutpage {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -189,6 +196,7 @@
   border: none;
   padding: 20px;
   width: 30%;
+  max-width: 235px;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -267,6 +275,7 @@
   }
   .social-links {
     margin-top: 0;
+    justify-content: space-between;
   }
   .fa-github-square {
     font-size: 30em;
@@ -275,6 +284,11 @@
   .landing-grid img {
     width: 14rem;
     height: 14rem;
+  }
+  .button-three {
+    font-size: 1em;
+    width: 41%;
+    margin-top: 0.2em;
   }
 }
 
