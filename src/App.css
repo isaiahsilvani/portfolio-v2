@@ -142,6 +142,9 @@
 .fa-github-square:hover {
   color: #6cc644;
 }
+.fa-envelope {
+  font-size: 0.1em;
+}
 
 .aboutpage {
   display: grid;
@@ -230,6 +233,28 @@
   transition: 0s
 }
 
+.skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap
+}
+
+#django {
+  background-color: whitesmoke;
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+}
+#nodejs {
+  background-color: whitesmoke;
+  padding: 0 4px;
+  border-radius: 20px;
+}
+
+.skills img {
+  height: 70px;
+  width: 70px
+}
 
 @media (max-width: 520px) {
   .col2 {

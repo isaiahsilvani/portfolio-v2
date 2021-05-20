@@ -2,6 +2,18 @@ import React, { Component } from 'react';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import html5 from '../components/../images/html5.png'
+import bootstrap from '../components/../images/bootstrap.png'
+import css3 from '../components/../images/css3.png'
+import django from '../components/../images/django.png'
+import git from '../components/../images/git.png'
+import github from '../components/../images/github.png'
+import javascript from '../components/../images/javascript.png'
+import mongodb from '../components/../images/mongodb.png'
+import postgresql from '../components/../images/postgresql.png'
+import python from '../components/../images/python.png'
+import react from '../components/../images/react.png'
+import nodejs from '../components/../images/nodejs.png'
 
 
 class Resume extends Component {
@@ -74,47 +86,21 @@ class Resume extends Component {
                 jobDescription="Provide exceptional customer service and dining experience. Train new servers and provide support for continued growth of new hires."
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
-              <h2>Skills</h2>
-              <Skills
-                skill="Javascript"
-                progress={95}
-                />
-                <Skills
-                  skill="HTML/CSS"
-                  progress={100}
-                />
-                <Skills
-                  skill="Bootstrap"
-                  progress={100}
-                />
-                <Skills
-                  skill="NodeJS"
-                  progress={93}
-                />
-                <Skills
-                  skill="React"
-                  progress={94}
-                />
-                <Skills
-                  skill="Express"
-                  progress={95}
-                />
-                <Skills
-                  skill="MongoDB"
-                  progress={100}
-                />
-                <Skills
-                  skill="Postgresql"
-                  progress={90}
-                />
-                <Skills
-                  skill="Python"
-                  progress={90}
-                />
-                <Skills
-                  skill="Django"
-                  progress={89}
-                />
+                <h2>Skills</h2>
+                <div className='skills'>
+                  <img alt='react' src={react}/>
+                  <img alt='bootstrap' src={bootstrap}/>
+                  <img alt='css3' src={css3}/>
+                  <img id='nodejs' alt='nodejs' src={nodejs}/>
+                  <img alt='html5' src={html5}/>
+                  <img alt='javascript' src={javascript}/>
+                  <img alt='python' src={python}/>
+                  <img alt='mongodb' src={mongodb}/>
+                  <img alt='postgresql' src={postgresql}/>
+                  <img alt='git' src={git}/>
+                  <img alt='github' src={github}/>
+                  <img id='django' alt='django' src={django}/>
+                </div>
           </div>
       </div>
     )
