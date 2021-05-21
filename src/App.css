@@ -25,6 +25,7 @@
 
 .fa-phone-square:hover, .phone:hover {
   color: green;
+  cursor: pointer;
 }
 .fa-linkedin:hover, .linked:hover {
   color: blue;

@@ -157,7 +157,7 @@ class Projects extends Component {
               style={{color: '#fff', height: '176px'}} />
             <CardText>
               <p className='card-title'>Tech Hunters</p>
-              A job hunting application which consumes a 3rd party API to get job list data based on user query fields. User can track the application process of each individual job a user finds. Also features a message board for users to share their job hunting experience with others
+              A job hunting application which consumes a 3rd party API to get job list data based on user query fields. Users can track the application process of each individual job a user finds. Also features a message board for users to share their job hunting experience with others
               <br/><br/>
               <p className='card-tech' style={{marginBottom: '0'}}>NodeJS, Express, MongoDB, Bootstrap</p>
             </CardText>

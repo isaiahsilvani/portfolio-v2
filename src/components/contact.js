@@ -25,10 +25,8 @@ class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                  <a className="contact-link" href='#'  target="_blank" rel="noopener noreferrer">
                     <i className="fa fa-phone-square" aria-hidden="true"/>
                     <span className='contact-text phone'>(609) 464-6560</span>
-                  </a>
                   </ListItemContent>
                 </ListItem>
 
