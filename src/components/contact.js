@@ -25,22 +25,28 @@ class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                  <a className="contact-link" href='#'  target="_blank" rel="noopener noreferrer">
                     <i className="fa fa-phone-square" aria-hidden="true"/>
                     <span className='contact-text phone'>(609) 464-6560</span>
+                  </a>
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-envelope-square" aria-hidden="true"/>
-                    <span className='contact-text email'>developersilvani@gmail.com</span>
+                    <a className="contact-link" href='mailto: developersilvani@gmail.com'>
+                      <i className="fa fa-envelope-square" aria-hidden="true"/>
+                      <span className='contact-text email'>developersilvani@gmail.com</span>
+                    </a>
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-linkedin" aria-hidden="true"/>
-                    <span className='contact-text linked'>@ Isaiah-Silvani</span>
+                    <a className="contact-link" href='https://www.linkedin.com/in/isaiah-silvani' target="_blank" rel="noopener noreferrer">
+                      <i className="fa fa-linkedin" aria-hidden="true"/>
+                      <span className='contact-text linked'>@ Isaiah-Silvani</span>
+                    </a>
                   </ListItemContent>
                 </ListItem>
 

@@ -32,6 +32,10 @@
 .fa-envelope-square:hover, .email:hover {
   color: grey;
 }
+.contact-link {
+  text-decoration: none;
+  color: black;
+}
 
 
 /* Resume Page css */
