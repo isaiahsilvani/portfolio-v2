@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import ideahubio_thumb from '../images/ideahubio_thumb.png'
+import hot_escape_thumb from '../images/hot_escape_thumb.png'
+import tech_hunters_thumb from '../images/tech_hunters_thumb.png'
+import connect4_thumb from '../images/connect4_thumb.png'
+
 
 class Projects extends Component {
   constructor(props) {
@@ -14,7 +19,9 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/13Zsk89.png) center / cover'}} ></CardTitle>
+            <img 
+              src={ideahubio_thumb}
+              style={{color: '#fff', height: '176px'}}/>
             <CardText>
               <p className='card-title'>IdeaHub.IO</p>
               A social application for innovators to create and share their own groundbreaking startup ideas with other users. Features conditionally rendered controls for different levels of user authentication and real time chat with Django Channels.
@@ -32,7 +39,10 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/lfbUyqU.png) center / cover'}} ></CardTitle>
+            <img 
+              src={hot_escape_thumb}
+              style={{color: '#fff', height: '176px'}} 
+              />
             <CardText>
               <p className='card-title'>Hot Escape (Group Project)</p>
               A travel and itinerary application which utilizes a 3rd party API to get flight data based on user query. Users can plan out their trips by inputting hotel, flight and rental car information. I was responsible for API integration and building the chatroom with Socket.IO
@@ -50,7 +60,9 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/Dmcdxhp.png) center / cover'}} ></CardTitle>
+            <img 
+              src={tech_hunters_thumb}
+              style={{color: '#fff', height: '176px'}} />
             <CardText>
               <p className='card-title'>Tech Hunters</p>
               A job hunting application which consumes a 3rd party API to get job list data based on user query fields. User can track the application process of each individual job a user finds. Also features a message board for users to share their job hunting experience with others
@@ -68,7 +80,9 @@ class Projects extends Component {
 
           {/* Project 4 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/HlMITTD.png) center / cover'}} ></CardTitle>
+            <img 
+              src={connect4_thumb}
+              style={{color: '#fff', height: '176px'}} />
             <CardText>
               <p className='card-title'>Connect Four Browser Game</p>
               A recreation of the popular board game Connect Four using JavaScript, HTML and CSS. Features toggle sound button, custom player names, randomizing who goes first, mobile responsiveness, and win or tie messages.
@@ -90,21 +104,23 @@ class Projects extends Component {
     } else if(this.state.activeTab === 1) {
       return (
         <div>
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/13Zsk89.png) center / cover'}} ></CardTitle>
-            <CardText>
-              <p className='card-title'>IdeaHub.IO</p>
-              A social application for innovators to create and share their own groundbreaking startup ideas with other users. Features conditionally rendered controls for different levels of user authentication and real time chat with Django Channels.
-              <br/><br/>
-              <p className='card-tech' style={{marginBottom: '0'}}>Python, Django, Postgresql, Bootstrap</p>
-            </CardText>
-            <CardActions border>
-              <a href="https://github.com/isaiahsilvani/ideahubio" target="_blank" rel="noopener noreferrer"><Button colored>GitHub</Button></a>
-              <a href="https://www.ideahubio.com/" target="_blank" rel="noopener noreferrer"><Button colored>Live Demo</Button></a>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
+              <img 
+                src={ideahubio_thumb}
+                style={{color: '#fff', height: '176px'}}/>
+              <CardText>
+                <p className='card-title'>IdeaHub.IO</p>
+                A social application for innovators to create and share their own groundbreaking startup ideas with other users. Features conditionally rendered controls for different levels of user authentication and real time chat with Django Channels.
+                <br/><br/>
+                <p className='card-tech' style={{marginBottom: '0'}}>Python, Django, Postgresql, Bootstrap</p>
+              </CardText>
+              <CardActions border>
+                <a href="https://github.com/isaiahsilvani/ideahubio" target="_blank" rel="noopener noreferrer"><Button colored>GitHub</Button></a>
+                <a href="https://www.ideahubio.com/" target="_blank" rel="noopener noreferrer"><Button colored>Live Demo</Button></a>
+              </CardActions>
+              <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+              </CardMenu>
           </Card>
         </div>
       )
@@ -112,7 +128,10 @@ class Projects extends Component {
       return (
         <div>
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/lfbUyqU.png) center / cover'}} ></CardTitle>
+            <img 
+              src={hot_escape_thumb}
+              style={{color: '#fff', height: '176px'}} 
+              />
             <CardText>
               <p className='card-title'>Hot Escape (Group Project)</p>
               A travel and itinerary application which utilizes a 3rd party API to get flight data based on user query. Users can plan out their trips by inputting hotel, flight and rental car information. I was responsible for API integration and building the chatroom with Socket.IO
@@ -133,7 +152,9 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/Dmcdxhp.png) center / cover'}} ></CardTitle>
+            <img 
+              src={tech_hunters_thumb}
+              style={{color: '#fff', height: '176px'}} />
             <CardText>
               <p className='card-title'>Tech Hunters</p>
               A job hunting application which consumes a 3rd party API to get job list data based on user query fields. User can track the application process of each individual job a user finds. Also features a message board for users to share their job hunting experience with others
@@ -150,10 +171,12 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/HlMITTD.png) center / cover'}} ></CardTitle>
+            <img 
+              src={connect4_thumb}
+              style={{color: '#fff', height: '176px'}} />
             <CardText>
               <p className='card-title'>Connect Four Browser Game</p>
-              A recreation of the popular board game Connect Four using JavaScript, HTML and CSS. Features toggle sound button, custom player names, randomizing who goes first, mobile responsiveness, and confetti + sound effects on win or tie.
+              A recreation of the popular board game Connect Four using JavaScript, HTML and CSS. Features toggle sound button, custom player names, randomizing who goes first, mobile responsiveness, and win or tie messages.
               <br/><br/>
               <p className='card-tech' style={{marginBottom: '0'}}>Javascript, HTML5, CSS3</p>
             </CardText>
