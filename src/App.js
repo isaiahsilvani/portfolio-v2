@@ -11,9 +11,9 @@ class App extends Component {
     <Layout>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Isaiah Silvani</Link>} scroll>
             <Navigation>
+                <Link to="/projects"><span className="nav-text">Projects</span></Link>
                 <Link to="/resume"><span className="nav-text">Resume</span></Link>
                 <Link to="/aboutme"><span className="nav-text">About Me</span></Link>
-                <Link to="/projects"><span className="nav-text">Projects</span></Link>
                 <Link to="/contact"><span className="nav-text">Contact</span></Link>
             </Navigation>
         </Header>
