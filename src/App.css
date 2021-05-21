@@ -23,6 +23,17 @@
   flex-wrap: wrap;
 }
 
+.fa-phone-square:hover, .phone:hover {
+  color: green;
+}
+.fa-linkedin:hover, .linked:hover {
+  color: blue;
+}
+.fa-envelope-square:hover, .email:hover {
+  color: grey;
+}
+
+
 /* Resume Page css */
 .resume-right-col {
   background: #27221F;
