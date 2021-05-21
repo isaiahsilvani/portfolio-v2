@@ -274,6 +274,21 @@
   color: #E6F3D8;
 }
 
+.project-text {
+  font-size: 1.15em;
+  font-weight: 450;
+  line-height: 25px;
+}
+
+.projects-grid .card-title {
+  font-size: 1.2em;
+}
+
+.projects-grid p {
+  font-size: 0.96em;
+  font-weight: 700;
+}
+
 .skills img {
   height: 70px;
   width: 70px

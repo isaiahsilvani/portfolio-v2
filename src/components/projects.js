@@ -21,10 +21,10 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <img 
               src={ideahubio_thumb}
-              style={{color: '#fff', height: '176px'}}/>
+              style={{color: '#fff', height: '210px'}}/>
             <CardText>
               <p className='card-title'>IdeaHub.IO</p>
-              A social application for innovators to create and share their own groundbreaking startup ideas with other users. Features conditionally rendered controls for different levels of user authentication and real time chat with Django Channels.
+              <span className="project-text">A social application for innovators to create and share their own groundbreaking startup ideas with other users. Features conditionally rendered controls for different levels of user authentication and real time chat with Django Channels.</span>
               <br/><br/>
               <p className='card-tech' style={{marginBottom: '0'}}>Python, Django, Postgresql, Bootstrap</p>
             </CardText>
@@ -41,11 +41,13 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <img 
               src={hot_escape_thumb}
-              style={{color: '#fff', height: '176px'}} 
+              style={{color: '#fff', height: '210px'}} 
               />
             <CardText>
               <p className='card-title'>Hot Escape (Group Project)</p>
+              <span className="project-text">
               A travel and itinerary application which utilizes a 3rd party API to get flight data based on user query. Users can plan out their trips by inputting hotel, flight and rental car information. I was responsible for API integration and building the chatroom with Socket.IO
+              </span>
               <br/><br/>
               <p className='card-tech' style={{marginBottom: '0'}}>NodeJS, React, Express, MongoDB, Socket.IO</p>
             </CardText>
@@ -62,10 +64,12 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <img 
               src={tech_hunters_thumb}
-              style={{color: '#fff', height: '176px'}} />
+              style={{color: '#fff', height: '210px'}} />
             <CardText>
               <p className='card-title'>Tech Hunters</p>
+              <span className="project-text">
               A job hunting application which consumes a 3rd party API to get job list data based on user query fields. User can track the application process of each individual job a user finds. Also features a message board for users to share their job hunting experience with others
+              </span>
               <br/><br/>
               <p className='card-tech' style={{marginBottom: '0'}}>NodeJS, Express, MongoDB, Bootstrap</p>
             </CardText>
@@ -82,10 +86,12 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <img 
               src={connect4_thumb}
-              style={{color: '#fff', height: '176px'}} />
+              style={{color: '#fff', height: '210px'}} />
             <CardText>
               <p className='card-title'>Connect Four Browser Game</p>
-              A recreation of the popular board game Connect Four using JavaScript, HTML and CSS. Features toggle sound button, custom player names, randomizing who goes first, mobile responsiveness, and win or tie messages.
+              <span className="project-text">
+              A recreation of the popular board game Connect Four using JavaScript, HTML and CSS. Features toggle sound button, custom player names, randomizing who goes first, mobile responsiveness, and win or tie messages. Also used WebAim Contrast Checker for accessibility.
+              </span>
               <br/><br/>
               <p className='card-tech' style={{marginBottom: '0'}}>Javascript, HTML5, CSS3</p>
             </CardText>
@@ -104,23 +110,23 @@ class Projects extends Component {
     } else if(this.state.activeTab === 1) {
       return (
         <div>
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
-              <img 
-                src={ideahubio_thumb}
-                style={{color: '#fff', height: '176px'}}/>
-              <CardText>
-                <p className='card-title'>IdeaHub.IO</p>
-                A social application for innovators to create and share their own groundbreaking startup ideas with other users. Features conditionally rendered controls for different levels of user authentication and real time chat with Django Channels.
-                <br/><br/>
-                <p className='card-tech' style={{marginBottom: '0'}}>Python, Django, Postgresql, Bootstrap</p>
-              </CardText>
-              <CardActions border>
-                <a href="https://github.com/isaiahsilvani/ideahubio" target="_blank" rel="noopener noreferrer"><Button colored>GitHub</Button></a>
-                <a href="https://www.ideahubio.com/" target="_blank" rel="noopener noreferrer"><Button colored>Live Demo</Button></a>
-              </CardActions>
-              <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-              </CardMenu>
+              <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
+            <img 
+              src={ideahubio_thumb}
+              style={{color: '#fff', height: '210px'}}/>
+            <CardText>
+              <p className='card-title'>IdeaHub.IO</p>
+              <span className="project-text">A social application for innovators to create and share their own groundbreaking startup ideas with other users. Features conditionally rendered controls for different levels of user authentication and real time chat with Django Channels.</span>
+              <br/><br/>
+              <p className='card-tech' style={{marginBottom: '0'}}>Python, Django, Postgresql, Bootstrap</p>
+            </CardText>
+            <CardActions border>
+              <a href="https://github.com/isaiahsilvani/ideahubio" target="_blank" rel="noopener noreferrer"><Button colored>GitHub</Button></a>
+              <a href="https://www.ideahubio.com/" target="_blank" rel="noopener noreferrer"><Button colored>Live Demo</Button></a>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
           </Card>
         </div>
       )
@@ -130,11 +136,13 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <img 
               src={hot_escape_thumb}
-              style={{color: '#fff', height: '176px'}} 
+              style={{color: '#fff', height: '210px'}} 
               />
             <CardText>
               <p className='card-title'>Hot Escape (Group Project)</p>
+              <span className="project-text">
               A travel and itinerary application which utilizes a 3rd party API to get flight data based on user query. Users can plan out their trips by inputting hotel, flight and rental car information. I was responsible for API integration and building the chatroom with Socket.IO
+              </span>
               <br/><br/>
               <p className='card-tech' style={{marginBottom: '0'}}>NodeJS, React, Express, MongoDB, Socket.IO</p>
             </CardText>
@@ -154,10 +162,12 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <img 
               src={tech_hunters_thumb}
-              style={{color: '#fff', height: '176px'}} />
+              style={{color: '#fff', height: '210px'}} />
             <CardText>
               <p className='card-title'>Tech Hunters</p>
-              A job hunting application which consumes a 3rd party API to get job list data based on user query fields. Users can track the application process of each individual job a user finds. Also features a message board for users to share their job hunting experience with others
+              <span className="project-text">
+              A job hunting application which consumes a 3rd party API to get job list data based on user query fields. User can track the application process of each individual job a user finds. Also features a message board for users to share their job hunting experience with others
+              </span>
               <br/><br/>
               <p className='card-tech' style={{marginBottom: '0'}}>NodeJS, Express, MongoDB, Bootstrap</p>
             </CardText>
@@ -173,10 +183,12 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <img 
               src={connect4_thumb}
-              style={{color: '#fff', height: '176px'}} />
+              style={{color: '#fff', height: '210px'}} />
             <CardText>
               <p className='card-title'>Connect Four Browser Game</p>
-              A recreation of the popular board game Connect Four using JavaScript, HTML and CSS. Features toggle sound button, custom player names, randomizing who goes first, mobile responsiveness, and win or tie messages.
+              <span className="project-text">
+              A recreation of the popular board game Connect Four using JavaScript, HTML and CSS. Features toggle sound button, custom player names, randomizing who goes first, mobile responsiveness, and win or tie messages. Also used WebAim Contrast Checker for accessibility.
+              </span>
               <br/><br/>
               <p className='card-tech' style={{marginBottom: '0'}}>Javascript, HTML5, CSS3</p>
             </CardText>
