@@ -136,12 +136,6 @@
   padding: 8px;
 }
 
-.fa-linkedin-square:hover {
-  color: #00a0dc;
-}
-.fa-github-square:hover {
-  color: #6cc644;
-}
 .fa-envelope {
   font-size: 0.1em;
 }
@@ -249,6 +243,19 @@
   background-color: whitesmoke;
   padding: 0 4px;
   border-radius: 20px;
+}
+
+#linkedin {
+  color: #05BCFF;
+}
+#linkedin:hover {
+  color: #E0EBFA;
+}
+#github {
+  color: #6CC644;
+}
+#github:hover {
+  color: #E6F3D8;
 }
 
 .skills img {

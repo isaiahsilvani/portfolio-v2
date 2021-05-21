@@ -26,12 +26,20 @@ class Landing extends Component {
 
           {/* LinkedIn */}
           <a href="https://www.linkedin.com/in/isaiah-silvani" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square" aria-hidden="true" />
+            <i 
+              className="fa fa-linkedin-square" 
+              aria-hidden="true"
+              id="linkedin"
+            />
           </a>
 
           {/* Github */}
           <a href="https://github.com/isaiahsilvani" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-github-square" aria-hidden="true" />
+            <i 
+              className="fa fa-github-square" 
+              aria-hidden="true" 
+              id="github"
+            />
           </a>
 
         </div>
