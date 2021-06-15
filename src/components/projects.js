@@ -4,6 +4,7 @@ import ideahubio_thumb from '../images/ideahubio_thumb.png'
 import hot_escape_thumb from '../images/hot_escape_thumb.png'
 import tech_hunters_thumb from '../images/tech_hunters_thumb.png'
 import connect4_thumb from '../images/connect4_thumb.png'
+import quiz_app_thumb from '../images/quiz_app_thumb.png'
 
 
 class Projects extends Component {
@@ -103,6 +104,26 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+
+                    {/* Project 5 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
+            <img 
+              src={quiz_app_thumb}
+              style={{color: '#fff', height: '210px'}}/>
+            <CardText>
+              <p className='card-title'>Unlimited Quiz App</p>
+              <span className="project-text">A full-stack quiz app that allows users to choose how many questions are served, and the difficulty of those questions. Also has the option to save user scores to the database for bragging rights. Made using the TriviaDB API.</span>
+              <br/><br/>
+              <p className='card-tech' style={{marginBottom: '0'}}>TypeScript, React+Redux, NodeJS, Express, MongoDB</p>
+            </CardText>
+            <CardActions border>
+              <a href="https://github.com/isaiahsilvani/projects-argus/tree/main/quiz-app" target="_blank" rel="noopener noreferrer"><Button colored>GitHub</Button></a>
+              <a href="https://unlimited-quiz-app.herokuapp.com/" target="_blank" rel="noopener noreferrer"><Button colored>Live Demo</Button></a>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
           
         </div>
 
@@ -182,12 +203,12 @@ class Projects extends Component {
 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginBottom: '2em'}}>
             <img 
-              src={connect4_thumb}
+              src={quiz_app_thumb}
               style={{color: '#fff', height: '210px'}} />
             <CardText>
-              <p className='card-title'>Connect Four Browser Game</p>
+              <p className='card-title'>Unlimited Quiz App</p>
               <span className="project-text">
-              A recreation of the popular board game Connect Four using JavaScript, HTML and CSS. Features toggle sound button, custom player names, randomizing who goes first, mobile responsiveness, and win or tie messages. Also used WebAim Contrast Checker for accessibility.
+                A full-stack quiz app that allows users to choose how many random questions are served, the difficulty of those questions, and the option to save your score to the database for bragging rights
               </span>
               <br/><br/>
               <p className='card-tech' style={{marginBottom: '0'}}>Javascript, HTML5, CSS3</p>
